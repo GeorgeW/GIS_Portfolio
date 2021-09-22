@@ -815,8 +815,14 @@ input[type="radio"] + label:before {
   width: 100%;
   height: 800px;
 }
+.image.secondary {
+  display: block;
+  margin: 2.5rem 0;
+  width: 100%;
+}
 
-.image.main img {
+.image.main img,
+.image.secondary img {
   width: 100%;
 }
 
